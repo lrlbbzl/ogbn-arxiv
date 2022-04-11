@@ -1,0 +1,64 @@
+﻿Model: GCN    hidden_channel: 256    num_layers: 3    FLAG: False
+dropout_rate: 0.50    learning_rate: 0.0100    epochs: 500    
+Highest accuracy in train set: 78.50 �� 0.09
+Highest accuracy in validate set: 73.23 �� 0.08
+Final accuracy in train set: 78.01 �� 0.39
+Final accuracy in test set: 71.79 �� 0.21
+
+
+Model: GraphSAGE    hidden_channel: 256    num_layers: 5    FLAG: False
+dropout_rate: 0.50    learning_rate: 0.0100    epochs: 500    
+Highest accuracy in train set: 79.49 �� 0.13
+Highest accuracy in validate set: 73.30 �� 0.15
+Final accuracy in train set: 78.78 �� 0.63
+Final accuracy in test set: 72.03 �� 0.14
+
+
+Model: JKNet    hidden_channel: 256    num_layers: 3    FLAG: False
+dropout_rate: 0.50    learning_rate: 0.0100    epochs: 500    
+Highest accuracy in train set: 78.62 �� 0.56
+Highest accuracy in validate set: 73.05 �� 0.19
+Final accuracy in train set: 78.20 �� 0.69
+Final accuracy in test set: 71.82 �� 0.16
+
+
+Model: JKNet    hidden_channel: 256    num_layers: 3    FLAG: False
+dropout_rate: 0.50    learning_rate: 0.0100    epochs: 500    
+Highest accuracy in train set: 78.56 �� 0.37
+Highest accuracy in validate set: 73.21 �� 0.12
+Final accuracy in train set: 78.09 �� 0.44
+Final accuracy in test set: 71.86 �� 0.10
+
+
+Model: GCNRes    hidden_channel: 256    num_layers: 3    FLAG: False
+dropout_rate: 0.50    learning_rate: 0.0100    epochs: 500    
+Highest accuracy in train set: 80.63 �� 0.14
+Highest accuracy in validate set: 73.55 �� 0.07
+Final accuracy in train set: 79.72 �� 0.46
+Final accuracy in test set: 72.23 �� 0.19
+
+
+Model: GCNRes    hidden_channel: 256    num_layers: 3    FLAG: False
+dropout_rate: 0.50    learning_rate: 0.0100    epochs: 500    
+Highest accuracy in train set: 80.63 �� 0.19
+Highest accuracy in validate set: 73.55 �� 0.09
+Final accuracy in train set: 79.34 �� 0.56
+Final accuracy in test set: 72.35 �� 0.24
+
+
+Model: GCN    hidden_channel: 256    num_layers: 3    FLAG: True
+dropout_rate: 0.50    learning_rate: 0.0100    epochs: 500    
+Highest accuracy in train set: 78.82 �� 0.05
+Highest accuracy in validate set: 73.34 �� 0.09
+Final accuracy in train set: 78.45 �� 0.25
+Final accuracy in test set: 71.93 �� 0.23
+
+
+Model: GCNRes    hidden_channel: 256    num_layers: 3    FLAG: True
+dropout_rate: 0.50    learning_rate: 0.0100    epochs: 500    
+Highest accuracy in train set: 81.37 �� 0.13
+Highest accuracy in validate set: 73.82 �� 0.07
+Final accuracy in train set: 80.52 �� 0.32
+Final accuracy in test set: 72.49 �� 0.16
+
+
